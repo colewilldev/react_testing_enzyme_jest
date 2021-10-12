@@ -1,1 +1,11 @@
-{ "rules": "" }
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    // Override our default settings just for this directory
+    "eqeqeq": "warn",
+    "strict": "off"
+  }
+}
